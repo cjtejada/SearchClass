@@ -4,8 +4,8 @@ import QtQuick.Controls 1.3
 
 Window {
     id: root
-    width: 480
-    height: 300
+    width: 300
+    height: 480
     visible: true
 
     Column {
