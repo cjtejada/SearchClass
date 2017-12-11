@@ -14,7 +14,7 @@ Window {
 
         TextField {
             id: tf
-            placeholderText: "Search..."
+            placeholderText: "Type the name of the state you want to look for..."
             onTextChanged: SearchClass.setModel(text)
             width: root.width
             height: 30
